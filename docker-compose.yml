@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    image: my-node-tmp:v0.0.1
+    container_name: my-node
+    volumes:
+      - ./app/app.js:/app/app.js
+    ports:
+      - 9487:9487

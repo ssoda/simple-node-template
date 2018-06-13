@@ -1,0 +1,6 @@
+up.sh
+down.sh
+clear.sh
+Dockerfile
+docker-compose.yml
+app/node_modules/
